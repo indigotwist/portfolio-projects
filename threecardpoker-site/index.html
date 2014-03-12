@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Three Card Poker | WebDev 2 Final Project</title>
+	<link href="main.css" type="text/css" rel="stylesheet" media="all" />
+</head>
+<body>
+
+	<div class="mainContainer">
+
+		<div class="dealerHide">
+			<img class="hide card0" src="img/cardBack.jpg" alt="card back">
+			<img class="hide card1" src="img/cardBack.jpg" alt="card back">
+			<img class="hide card2" src="img/cardBack.jpg" alt="card back">
+		</div>
+
+		<div class="dealerPlayArea"></div>
+
+		<div class="outcome"></div>
+
+		<div class="bankRoll"></div>
+
+		<div class="playerPlayArea"></div>
+
+		<div class="buttonArea">
+			<button class="deal">deal</button>
+			<button class="play" disabled="true">play</button>
+			<button class="fold" disabled="true">fold</button>
+		</div>
+
+		<div class="betInputs">
+			<input type="text" id="pairPlusBet" name="pairPlusBet"><span id="pairPlusHelp">Enter a valid bet to continue.</span>
+			<input type="text" id="anteBet" name="anteBet"><span id="anteHelp">Enter a valid bet to continue.</span>
+			<input type="text" id="playBet" name="playBet" disabled="true">
+		</div>
+
+		<p class="credit">Coded and designed by Levi Stephen, <a href="http://www.deepindigodesign.com" target="_blank">Deep Indigo Design</a></p>
+
+	</div>
+
+	<script type="text/javascript" src="js/jquery-2.0.3.js"></script>
+	<script type="text/javascript" src="js/underscore.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

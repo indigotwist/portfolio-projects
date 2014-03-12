@@ -1,0 +1,137 @@
+body {
+	font-family: Helvetica, Arial, "sans serif";
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-image: url('img/greenFeltTexture.jpg');
+}
+
+.mainContainer {
+	width: 892px;
+	height: 744px;
+	margin: 30px auto;
+	background-image: url('img/pokerLayout.png');
+	position: relative;
+}
+
+button {
+	margin: 20px;
+	position: absolute;
+	top: 620px;
+	left: 255px;
+	width: 90px;
+	height: 30px;
+	border-radius: 8px;
+	background-color: #ffff00;
+	font: bold 16px Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.play {
+	left: 375px;
+}
+
+.fold {
+	left: 493px;
+}
+
+.card0, .card1, .card2 {
+	position: absolute;
+}
+
+.dealerPlayArea div, .hide {
+	top: 37px;
+}
+
+.hide {
+	z-index: 25;
+}
+
+.card0 {
+	left: 302px;
+}
+
+.card1 {
+	left: 402px;
+}
+
+.card2 {
+	left: 502px;
+}
+
+.playerPlayArea div {
+	top: 476px;
+}
+
+.outcome {
+	position: absolute;
+	top: 310px;
+	left: 248px;
+}
+
+.outcome p {
+	color: #fff;
+	font: bold 26px Arial, Helvetica, sans-serif;
+	}
+
+.bankRoll {
+	position: absolute;
+	top: 390px;
+	left: 469px;
+	color: #fff;
+	font: bold 36px Arial, Helvetica, sans-serif;
+}
+
+.betInputs input {
+	width: 60px;
+	font: bold 18px Arial, Helvetica, sans-serif;
+	position: absolute;
+	left: 76px;
+}
+
+#pairPlusBet {
+	top: 214px;
+}
+
+#anteBet {
+	top: 387px;
+}
+
+#playBet {
+	top: 598px;
+}
+
+#pairPlusHelp, #anteHelp {
+	position: absolute;
+	top: 216px;
+	left: 143px;
+	background-color: #800000;
+	color: #fff;
+	padding: 5px;
+	padding-left: 10px;
+	font: 15px Arial, Helvetica, sans-serif;
+}
+
+#anteHelp {
+	top: 389px;
+}
+
+.credit {
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #fff;
+	position: absolute;
+	top: 698px;
+	left: 276px;
+}
+
+a:link, a:visited {
+	color: #ffff00;
+	text-decoration: none;
+	border-bottom: 1px dotted #ffff00;
+}
+
+a:hover {
+	color: #fff;
+	border-color: #fff;
+}

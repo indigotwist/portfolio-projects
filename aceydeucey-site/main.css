@@ -1,0 +1,57 @@
+body {
+	font-family: Helvetica, Arial, "sans serif";
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-image: url('img/greenFeltTexture.jpg');
+}
+
+.mainContainer {
+	width: 960px;
+	margin: 0 auto;
+}
+
+h1, h2 {
+	margin: 0;
+	padding: 20px 20px 10px;
+	color: yellow;
+}
+
+.instructions {
+	color: white;
+	margin: 0 20px;
+	width: 370px;
+}
+
+button {
+	margin: 20px;
+}
+
+.playArea {
+	position: relative;
+}
+
+.cardContainer {
+	border: 8px solid #b41217;
+	float: left;
+	width: 72px;
+	height: 96px;
+	margin: 10px;
+	padding: 15px;
+	border-radius: 15px;
+}
+
+.card0, .card1, .card2 {
+	position: absolute;
+	top: 10px;
+}
+
+.card2 {
+	left: 138px;
+}
+
+.card1 {
+	left: 276px;
+}
+
+
