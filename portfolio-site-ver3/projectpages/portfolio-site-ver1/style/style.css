@@ -1,0 +1,189 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic|Dosis:300,500,700);
+
+/*
+@font-face {
+    font-family: "Franklin Gothic Heavy";
+    src: url("../fonts/FrankGotHea.ttf");
+*/
+
+/*
+ * style.css
+ */
+
+/*
+   Simple Base Stylesheet - http://fvsch.com/code/base-stylesheet/
+   Helps makes browser default styles more consistent. Updated: 2011-10-02.
+*/
+body {margin: 0; padding: 0; font-size: 100%; line-height: 1.5;}
+article, aside, figcaption, figure, footer, header, hgroup, nav, section {display: block;}
+h1, h2, h3, h4 {margin: 0; line-height: 1.25;}
+h1 {font-size: 2em;}
+h2 {font-size: 1.5em;}
+h3 {font-size: 1.2em;}
+ul, ol {margin: 0}
+p, figure {margin: 0;}
+a img {border: none;}
+sup, sub {line-height: 0;}
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Project Specific CSS Below */
+
+/* start - homepage and general use CSS */
+
+html {
+    background: url(../images/darklinen_bg.jpg);
+}
+
+body {
+    font: 14px/1.6 "Source Sans Pro", Verdana, sans-serif;
+    margin: 0 auto;
+    width: 960px;
+}
+
+body a:link {
+    color: #a84a39;
+}
+
+body a:visited {
+    color: #6da65f;
+}
+
+body a:hover {
+    color: #aea38d;
+}
+
+header {
+    width: 960px;
+    margin: 40px auto;
+    padding: 0 30px;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+header img {
+    float: left;
+}
+
+header h1 {
+    font: 300 2em "Dosis", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    color: #aea38d;
+    margin: 15px;
+    float: left;
+}
+
+header h1 em {
+    color: #a84a39;
+    font-style: normal;
+}
+
+header nav#mainNav {
+    margin: 0 35px;
+}
+
+header nav#mainNav li {
+    font: 300 1.25em "Dosis", Helvetica, Arial, sans-serif;
+    list-style: none;
+    float: left;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+header nav#mainNav a {
+    display: block;
+    padding: 10px 13px;
+}
+
+header nav#mainNav a:link, a:visited {
+    color: #aea38d;
+    text-decoration: none;
+}
+
+header nav#mainNav a.selected {
+    color: #a84a39;
+}
+
+header nav#mainNav a:hover {
+    background-color: #a84a39;
+    color: white;
+}
+
+#mainContainer {
+    background: url(../images/paper_bg.jpg);
+    margin: 180px auto 30px;
+    padding-bottom: 20px;
+}
+
+#mainContainer .introText {
+    width: 600px;
+    margin: 0 30px 0 330px;
+    padding: 20px 0;
+}
+
+#mainContainer .introText h2, #footerNav h2 {
+    font: 500 2.25em "Dosis", Helvetica, Arial, sans-serif;
+    color: #a84a39;
+}
+
+#mainContainer #workExampleBlock {
+    margin: 10px 18px;
+} 
+
+#mainContainer article.workExample {
+    display: inline-block;
+    margin: 3px 3px 0 3px;
+    padding: 0;
+    float: left;
+    /*position: relative;*/
+    width: 300px;
+}
+
+#mainContainer .workExample h3 {
+    display: block;
+    /*position: absolute;
+    bottom: 0;*/
+    padding: 10px;
+    margin: 0 0 15px 0;
+    background: #404041;
+    width: 300px;
+    height: 57px;
+    color: white;
+    font: 300 1em "Dosis", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+}
+
+#footerNav {
+    width: 960px;
+    margin: 30px 20px;
+    bottom: 50px;
+}
+
+#footerNav .cols1, .cols2 {
+    display: inline-block;
+    float: left;
+    width: 440px;
+    margin: 10px;
+    color: #aea38d;
+}
+
+#footerNav p {
+    font-size: 1.25em;
+}
+
+#footerNav img {
+    margin: 0 5px;
+}
+
+footer {
+    background: url(../images/paper_bg.jpg);
+    padding: 15px 30px;
+    font-size: .8em;
+    margin: 30px 0 0 0;
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Portfolio of Levi Stephen | Deep Indigo Design</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <script>document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300|Raleway:100' rel='stylesheet' type='text/css'>
+        <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="../js/respond.min.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="../css/main.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="../http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <div class="projectMainContainer">
+            <header>
+                <nav id="mainNav">
+                    <h1><a href="../index.html"><img src="../img/logoLsThin.png" alt="logo"></a></h1>
+
+                    <ul class="socialNav clearfix">
+                        <li><a href="http://www.linkedin.com/in/deepindigodesign" target="_blank" class="item1"></a></li>
+
+                        <li><a href="https://twitter.com/indigotwist" target="_blank" class="item2"></a></li>
+
+                        <li><a href="mailto:levi@deepindigodesign.com" class="item3"></a></li>
+                    </ul>
+                </nav>
+
+                <div class="workNav">
+                    <p class="workNavLabel">View work type:</p>
+                    <p class="workNavLinks"><a href="../worktypes/printwork.html">Print</a> &#124; <a href="../worktypes/digitalwork.html">Digital</a></p>
+                </div>
+            </header>
+
+            <section id="workContainer">
+                <h2 class="projectTitle">Three Card Poker Game</h2>
+
+                <p class="projectDescription">Development of Javascript/JQuery-based game for Web Development 2 course.<p>
+
+                <div class="projectContent">
+                    <div class="projectText">
+                        <div class="projectLinks">
+                            <p><a href="threecardpoker-site/index.html" target="_blank">Play a live version of the game</a></p>
+
+                            <p><a href="https://github.com/indigotwist/portfolio-projects/tree/master/threecardpoker-site" target="_blank">View the project files on Git Hub</a></p>
+                        </div>
+
+                        <div class="projectProposal">
+                            <p>There's nothing quite like the camaraderie experienced at a winning casino table game. Roulette, Blackjack, and others are alright, but Three Card Poker is my favorite because it plays on some of the same rules of classic poker games like 5 Card Stud and Texas Hold 'em. There are a multitude of digital, interactive poker games out there, but there doesn't seem to be many of the 3 card table game variety. So, I set out to create one of my own using Javascript, JQuery, and a dash of the Underscore library. The logic of the game was built upon the structure of HTML and style of CSS as well.</p>
+                        </div>
+
+                        <div class="projectPurpose">
+                            <h3>Development</h3>
+
+                            <p>The logic of the javascript code in this game was programmed progressively along with my growing knowledge throughout the course. I thoroughly enjoyed collaborating with the instructor and felt my mind opening to the possibilities of bringing ideas to life through the logic and reasoning of programming code.</p>
+                        </div>
+                    </div>
+
+                    <div class="projectImages">
+                        <img src="../img/work/threecardpoker/top-image.jpg" alt="three card poker win">
+
+                        <div class="process">
+                            <h3>Process</h3>
+
+                            <ul class="processNav">
+                                <li><a href="#section1">Preliminary Exercises</a>&nbsp;&#124;&nbsp;</li>
+
+                                <li><a href="#section2">Enhancement</a>&nbsp;&#124;&nbsp;</li>
+
+                                <li><a href="#section3">Screenshot</a>&nbsp;&#124;&nbsp;</li>
+                            </ul>
+
+                            <a name="section1" id="section1">
+                            <div class="exercises">
+                                <h4>Preliminary Exercises</h4>
+
+                                <p>Parts of the game were developed through experimenting with the game Acey-Deucey, specifically the card-dealing function and rendering of the hand. The betting function and ability to verify the outcome is yet to be developed at this point in the development.</p>
+
+                                <p>You can <a href="aceydeucey-site/index.html" target="_blank">play a live version</a> of this game and see the complete <a href="https://github.com/indigotwist/portfolio-projects/tree/master/aceydeucey-site" target="_blank">files on Git Hub</a>.</p>
+
+                                <img src="../img/work/threecardpoker/acey-deucey-screenshot.jpg" alt="screenshot">
+                            </div>
+
+                            <a name="section2" id="section2">
+                            <div class="enhancement">
+                                <h4>Enhancement</h4>
+
+                                <p>In the Acey-Deucey game, the card dealing was done by using a function which created a random number and pulled that number out of an array of suits and ranks, then concatenated that random card into the HTML to render the card.</p>
+
+                                <p>It worked like pulling a card from a hat that an entire deck of cards was thrown into. The problem is that this method is like putting the card back into the hat after every pull, so each time a card is dealt it could be any card or even the same card.</p>
+
+                                <img src="../img/work/threecardpoker/code-deck1.jpg" alt="roughs">
+
+                                <p>This method was improved for the final game to include a string of several functions that dynamically creates a new deck object by iterating through the arrays of suits and ranks, shuffles the deck, and then uses that object to deal the cards in the new order until all the cards are used only once. This is similar to how a card deck would actually be used.</p>
+
+                                <img src="../img/work/threecardpoker/code-deck2.jpg" alt="roughs">
+                            </div>
+
+                            <a name="section3" id="section3">
+                            <div class="screenshot">
+                                <h4>Screenshot</h4>
+
+                                <p>The layout and graphics used in the game were designed to look similar to the style of graphics found on casino table games.</p>
+
+                                <img src="../img/work/threecardpoker/start-screenshot.jpg" alt="screenshot">
+                            </div>
+
+                            <p><a href="#">Back to top</a></p>
+                        </div>
+                    </div>
+                </div>
+            </section> <!--workContainer end-->
+
+            <footer>
+                <p>&copy; 2014 Levi Stephen</p>
+            </footer>
+        </div>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="../js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="../js/plugins.js"></script>
+        <script src="../js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-42726708-1');ga('send','pageview');
+        </script>
+    </body>
+</html>
